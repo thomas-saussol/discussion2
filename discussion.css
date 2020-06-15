@@ -1,0 +1,252 @@
+
+@font-face {
+  font-family: "The Wild Breath of Zelda";
+  font-style: normal;
+  font-weight: normal;
+  src: local('The Wild Breath of Zelda'), url('The Wild Breath of Zelda.otf') format('truetype');
+
+}
+
+.Barre{
+        text-align: center;
+        background-color:#0000009c;
+        display: inline-block;
+        flex-direction: row;
+        text-align: center;
+        padding: 0%;
+        margin: auto;
+        width: 100%;
+        height: 50px;
+        font-family: 'police', cursive;
+
+    }
+body{
+
+  margin: 0;
+}
+
+ #nav {
+        list-style-type: none;
+        text-align: center;
+        margin-bottom: 4%;
+        padding: 0;
+        margin-left: 0%;
+        margin-right: 20%;
+        margin: auto;
+        margin-top: 1%;
+        font-family: 'police', cursive;
+        background-color: black;
+
+    }
+
+
+ #nav li{
+        display: inline;
+        margin-right: 80px;
+        font-size: 20px;
+    }
+
+
+#nav li a{
+        padding: 5px 20px;
+        color:white;
+        text-decoration: none;
+        text-shadow: 0.2em 0.3em 0.1em #d9260c ;
+    }
+
+
+    #nav li :hover{
+        color:#e7a7a7;
+
+    }
+#discussion{
+    display: flex;
+    flex-direction: column;
+    font-family: police;
+    background-image: url(discut.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+#tableau{
+	border: solid;
+	background-color: rgba(255,255,255,0.5);
+}
+#validcomment{
+
+	border-radius: 20px;
+	font-family :'police';
+
+}
+@font-face {
+  font-family :'police';
+  src: url('Mandatory Plaything.otf') format('truetype');
+  }
+
+
+  /* CSS PAGE INDEX*/
+#bodyindex{
+background-image: url('fondcommentaire.gif');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#titreindex{
+text-align: center;
+  color:white;
+  text-decoration: none;
+  text-shadow: 0.2em 0.3em 0.1em #d9260c ;
+  font-family: 'police', cursive;
+  background-color: rgba(18, 131, 213, 0.5);
+  width: 100%;
+}
+
+/*animation des images e l'index*/
+.photoindex{
+height:200px;
+width: auto;
+
+}
+
+#animationindex{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+.photoindex0{
+  height:205px;
+  width: auto;
+  animation: entree 5s;
+  }@keyframes entree {
+  0%{transform:translateX(-83px);}
+  100%{transform:translateX(150px);}
+}
+
+
+.photoindex2{
+  height:205px;
+  width: auto;
+  animation: sortie 5s;
+  }
+  @keyframes sortie {
+  0%{transform:translateX(83px);}
+  100%{transform:translateX(-150px);}
+  }
+
+
+#photoindex1{
+height: 12%;
+width: 40%;
+animation: fondu 10s;
+}
+
+@keyframes fondu {
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+/*CSS PAGE INSCRIPTION*/
+
+#fondinscription{
+background-image: url("fondinscrition.jpg");
+background-size: cover;
+background-repeat:no-repeat;
+
+}
+
+#ar_h1{
+display: flex;
+justify-content: center;
+font-family: 'police', cursive;
+font-size: 20px;
+color:white;
+height: 30px;
+text-decoration: underline;
+text-shadow: 0.2em 0.3em 0.1em #d9260c ;
+background-color: rgba(210, 24, 24, 0.7);
+border-style: ridge;
+border-width: 10px;
+border-radius: 30px 40px 10px;
+border-color:rgb(67, 198, 222, 0.7);rgb(31, 219, 163)
+
+}
+
+#tableauinscrip{
+  display: flex;
+  justify-content: center;
+  margin: 150px;
+  border-radius: 100px 30px 40px 90px;
+  width: 50%;
+  font-family: 'police', cursive;
+color:white;
+text-decoration: underline;
+text-shadow: 0.2em 0.3em 0.1em #d9260c ;
+background-color: rgba(201, 169, 169, 0.7);
+border-style: ridge;
+border-width: 10px;
+border-color:rgb(67, 198, 222, 0.7);
+
+}
+
+/*CSS PAGE CONNEXION*/
+
+#fondconnexion{
+background-image: url("fondconnexion.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+#ar-h1-co, b{
+  color: white;
+  font-family:'The Wild Breath of Zelda', cursive;
+  font-size: 40px;
+  padding: 0;
+}
+
+#ar-form{
+  display: flex;
+  justify-content: center;
+align-items: center;
+height: 320px;
+
+}
+
+#submitconnexion{
+  background-image: url("logozelda.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+   background-color: rgba(255,255,255,0);
+  border-radius: 190px;
+  padding: 120px;
+
+}
+
+#validationconnection{
+  display: flex;
+  justify-content: center;
+margin: 20px;
+color: white;
+padding-left: 950px;
+font-size: 50px;
+position: absolute;
+font-family:'The Wild Breath of Zelda', cursive;
+
+}
+
+
+#photoindex5{
+height:200px;
+width: 200px;
+animation: fondu 10s;
+}
+
+@keyframes fondu {
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
